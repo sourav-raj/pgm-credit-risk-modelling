@@ -1,4 +1,4 @@
-### credit-risk-modelling based on Probabilistic graphical models
+### Credit Risk Modelling based on Probabilistic graphical models
 
 Formulate Bayesian Network Models ( Include deep probabilistic learning Models too) for modelling credit risk on FNMA Multifamily loan performance data. 
 
@@ -39,6 +39,7 @@ Compare the model performance against classical Machine learning models and deep
     Structural Learning based on HillClimbSearch & BDeuScore
    
 - Result
+
     Since we have trained a BNN model (epistemic) , the model produces a different output each time we call it with the same input, since each time a new set of weights are sampled from the distributions to construct the network and produce an output. The less certain the mode weights are, the more variability (wider range) we will see in the outputs of the same inputs. The same has been observed in the loss curve for BNN network
 
-Also based on our training data, we found that all model is performing well for credit risk with deep learning giving the best result.
+    Also based on our training data, we found that all model is performing well for credit risk with deep learning giving the best result.
